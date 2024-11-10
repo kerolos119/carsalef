@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1ddb7e-db67-410b-8b10-4913651d9123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/MapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/controller/SalesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/Credentail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/excception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/excception/CustomExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/excception/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/AbstractMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/CarMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/SalesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/model/Auitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/security/UserDetailsLmpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/JwtFilterServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/document/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/reposatory/UserReposatory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -56,7 +46,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kerolos119/CarSale.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/kerolos119/carsalef.git&quot;,
     &quot;accountId&quot;: &quot;dab3eedc-4f0c-4083-acc6-6e0a86d0784c&quot;
   }
 }</component>
@@ -86,10 +76,11 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Application.CarSaleShopApplication.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/backend/carSaleShop&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/backend/carSaleShop&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -16,7 +16,8 @@ public class SecuirtyConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity security)throws Exception{
         security.authorizeHttpRequests(auth->{
-            auth.anyRequest().authenticated();
+//            auth.requestMatchers("/v1/car/**").permitAll();
+            auth.anyRequest().hasRole("USER");
         }).formLogin(httpSecurityFormLoginConfigurer -> {
 
         }).httpBasic(httpSecurityHttpBasicConfigurer -> {
@@ -25,11 +26,8 @@ public class SecuirtyConfig {
 
         return security.build();
     }
-    @Bean
-    public UserDetailsService userDetailsService(){
-        UserDetails userDetails= User.withUsername("test").password("test").build();
-        return new InMemoryUserDetailsManager(userDetails);
-    }
+
+
     @Bean
     public PasswordEncoder encoder(){
         return new BCryptPasswordEncoder();

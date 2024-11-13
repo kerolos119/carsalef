@@ -13,5 +13,6 @@ public interface Mapper <D,E>{
 
     public E updateToEntity(D dto, E entity);
 
-    Car updaToEntity(CarDto dto, Car entity);
+
+
 }

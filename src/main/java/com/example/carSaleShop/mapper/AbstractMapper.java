@@ -1,5 +1,7 @@
 package com.example.carSaleShop.mapper;
 
+import com.example.carSaleShop.document.Car;
+import com.example.carSaleShop.dto.CarDto;
 import jakarta.annotation.PostConstruct;
 import lombok.Setter;
 import org.modelmapper.Conditions;
@@ -39,4 +41,6 @@ public abstract class AbstractMapper<D,E> implements Mapper<D,E> {
     public E toEntity(D dto) {
         return mapper.map(dto,eClass);
     }
+
+    public abstract Car updaToEntity(CarDto dto, Car entity);
 }

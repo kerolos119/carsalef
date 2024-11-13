@@ -1,7 +1,10 @@
 package com.example.carSaleShop.config;
 
+import com.example.carSaleShop.service.CustomUsertDetailServices;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -13,11 +16,22 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 public class SecuirtyConfig {
+    @Autowired
+    CustomUsertDetailServices usertDetailServices;
+
+    @Bean
+    public DaoAuthenticationProvider authenticationProvider(){
+        DaoAuthenticationProvider auth = new DaoAuthenticationProvider();
+        auth.setPasswordEncoder(encoder());
+        auth.setUserDetailsService(usertDetailServices);
+        return auth;
+    }
+
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity security)throws Exception{
         security.authorizeHttpRequests(auth->{
 //            auth.requestMatchers("/v1/car/**").permitAll();
-            auth.anyRequest().hasRole("USER");
+            auth.anyRequest().authenticated();
         }).formLogin(httpSecurityFormLoginConfigurer -> {
 
         }).httpBasic(httpSecurityHttpBasicConfigurer -> {
@@ -32,4 +46,6 @@ public class SecuirtyConfig {
     public PasswordEncoder encoder(){
         return new BCryptPasswordEncoder();
     }
+
+
 }

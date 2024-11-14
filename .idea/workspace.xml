@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1ddb7e-db67-410b-8b10-4913651d9123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/document/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/document/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/AbstractMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/AbstractMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/mapper/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/security/UserDetailsLmpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/UserServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/config/SecuirtyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/config/SecuirtyConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/mapper/AbstractMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/mapper/AbstractMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/mapper/Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/mapper/Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/security/UserDetailsLmpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/service/CustomUsertDetailServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/service/CustomUsertDetailServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/carSaleShop/CarSaleShopApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/mapper/UserMapper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

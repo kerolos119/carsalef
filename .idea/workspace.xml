@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1ddb7e-db67-410b-8b10-4913651d9123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/document/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/document/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity$UserEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/service/UserServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/service/UserServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,18 +74,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.CarSaleShopApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/backend/carSaleShop",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CarSaleShopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/backend/carSaleShop&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

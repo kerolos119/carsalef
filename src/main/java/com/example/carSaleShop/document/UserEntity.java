@@ -1,5 +1,6 @@
 package com.example.carSaleShop.document;
 
+import com.example.carSaleShop.model.Auitable;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class UserEntity {
+public class UserEntity extends Auitable {
     @Id
     private String id;
     private String username;

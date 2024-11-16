@@ -1,5 +1,6 @@
 package com.example.carSaleShop.dto;
 
+import com.example.carSaleShop.model.Auitable;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class UserDto {
+public class UserDto extends Auitable {
     private String id;
     private String username;
     private String password;

@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1ddb7e-db67-410b-8b10-4913651d9123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/excception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/model/TokenInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/MapperConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/Credentail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/Credentail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/excception/CustomExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/JwtFilterServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/JwtFilterServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/utils/JwtUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +77,11 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.carSaleShop.service" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

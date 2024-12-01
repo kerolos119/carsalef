@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1ddb7e-db67-410b-8b10-4913651d9123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/excception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/model/TokenInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/MapperConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/document/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/document/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/UserServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity$UserEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/document/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/service/UserServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carSaleShop/service/UserServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/Credentail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/dto/Credentail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/excception/CustomExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/JwtFilterServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/JwtFilterServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/utils/JwtUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +75,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.CarSaleShopApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/backend/carSaleShop&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CarSaleShopApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/backend/carSaleShop",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,5 +101,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="7d035b">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="7d035b" />
+              <option name="initiateTms" value="1733047619279" />
+              <option name="request" value=" The file contains the following errors and warnings:&#10;- Unused import statement for line &quot;import jakarta.servlet.Filter;&quot;&#10;- Unused import statement for line &quot;import org.springframework.security.core.userdetails.User;&quot;&#10;- Unused import statement for line &quot;import org.springframework.security.core.userdetails.UserDetails;&quot;&#10;- Unused import statement for line &quot;import org.springframework.security.core.userdetails.UserDetailsService;&quot;&#10;- Unused import statement for line &quot;import org.springframework.security.provisioning.InMemoryUserDetailsManager;&quot;&#10;- Class 'SecuirtyConfig' is never used for line &quot;public class SecuirtyConfig {&quot;&#10;- Private field 'usertDetailServices' is never assigned for line &quot;private CustomUsertDetailServices usertDetailServices;&quot;&#10;- Private field 'filterServices' is never assigned for line &quot;private JwtFilterServices filterServices;&quot;&#10;- Method 'securityFilterChain(org.springframework.security.config.annotation.web.builders.HttpSecurity)' is never used for line &quot;public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {&quot;&#10;- 'addFilterBefore(jakarta.servlet.Filter, java.lang.Class&lt;? extends jakarta.servlet.Filter&gt;)' in 'org.springframework.security.config.annotation.web.builders.HttpSecurity' cannot be applied to '(com.example.carSaleShop.service.JwtFilterServices, java.lang.Class&lt;org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&gt;)' for line &quot;http.addFilterBefore(filterServices, UsernamePasswordAuthenticationFilter.class);&quot;" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Welcome to Machinet AI! To assist you with your coding needs, you'll first need to sign in and subscribe to our service.&#10;&#10;Please follow these steps:&#10;&#10;1. **Sign In**: Click the 'Sign In' button at the left corner of the chat inside the IDE. You will be redirected to the [sign in page](https://plugin.machinet.net/#signin), where you can enter your email and password.&#10;&#10;2. **Subscribe**: After signing in, you can choose a subscription plan. Visit our [pricing page](https://plugin.machinet.net/#pricing) to select either a Pro or Max subscription. You can also opt for a Pro Trial subscription to test Machinet AI for 10 days.&#10;&#10;Once you are signed in and subscribed, I will be able to assist you with your code-related tasks. If you have any questions about the subscription plans or features, feel free to ask!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1733047639474" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/document/UserEntity.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/config/SecuirtyConfig.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/CustomUsertDetailServices.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/service/JwtFilterServices.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/example/carSaleShop/reposatory/UserReposatory.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

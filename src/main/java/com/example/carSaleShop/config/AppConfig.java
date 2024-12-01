@@ -9,12 +9,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AppConfig {
     @Bean
-    public ModelMapper modelMapper(){
-        ModelMapper modelMapper = new ModelMapper();
-        modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STANDARD);
-        modelMapper.getConfiguration().setAmbiguityIgnored(true);
-        modelMapper.getConfiguration().setPropertyCondition(Conditions.isNotNull());
-        return modelMapper;
+    public ModelMapper modelMapper() {
+        return new ModelMapper();
     }
+
 
 }
